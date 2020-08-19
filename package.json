@@ -1,0 +1,30 @@
+{
+  "name": "webpack-example",
+  "version": "1.0.0",
+  "description": "## Branches",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js --mode=production",
+    "dev": "webpack --config webpack.config.js --watch --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Khongorod/webpack-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Khongorod/webpack-example/issues"
+  },
+  "homepage": "https://github.com/Khongorod/webpack-example#readme",
+  "devDependencies": {
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "css-loader": "^4.2.1",
+    "random": "^2.2.0"
+  }
+}
